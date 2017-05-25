@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.iflytek.demo.model">
+	<class name="Courier">
+		<id name="id">
+			<generator class="native" />
+		</id>
+		<property name="aqi" />
+		<property name="area" />
+		<property name="co" />
+		<property name="co_24h" />
+		<property name="no2" />
+		<property name="no2_24h" />
+		<property name="o3" />
+		<property name="o3_24h" />
+		<property name="o3_8h" />
+		<property name="o3_8h_24h" />
+		<property name="pm10" />
+		<property name="pm10_24h" />
+		<property name="pm2_5" />
+		<property name="pm2_5_24h" />
+		<property name="position_name" />
+		<property name="primary_pollutant" />
+		<property name="quality" />
+		<property name="so2" />
+		<property name="so2_24h" />
+		<property name="station_code" />
+		<property name="time_point" />
+	</class>
+</hibernate-mapping>

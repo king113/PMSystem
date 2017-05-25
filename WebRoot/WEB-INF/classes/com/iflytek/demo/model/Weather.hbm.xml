@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping package="com.iflytek.demo.model">
+	<class name="Weather">
+		<id name="id">
+			<generator class="native" />
+		</id>
+		<property name="city" />
+		<property name="date" />
+		<property name="week" />
+		<property name="weather" />
+		<property name="temp" />
+		<property name="img" />
+
+	</class>
+</hibernate-mapping>

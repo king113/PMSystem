@@ -1,0 +1,306 @@
+.flexy-menu{
+    -webkit-box-shadow: 3px 3px 3px #245f23;
+    -moz-box-shadow: 3px 3px 3px #245f23;
+    box-shadow: 3px 3px 3px #245f23;
+}
+.rotWord {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+.CursorLayer canvas{
+
+    position: absolute;
+    top:0;
+    z-index: -10;
+}
+
+
+.rotWord p {
+    max-width: 220px;
+    float: left;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.mWord {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.mWord span {
+    background: url(/img/my.png);
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 20px;
+}
+
+.mWord p {
+    max-width: 220px;
+    float: right;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.orange li:hover{
+    border-bottom:2px solid #257d29;
+}
+.flexy-menu {
+    width: 100%;
+    position:relative;
+    float: left;
+    font-family: "Source Sans Pro", Segoe UI, Arial;
+    list-style: none;
+    background: #f6f1ff;
+    z-index:99;
+}
+.content{
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top:0px;
+    height: 105px;
+    margin-top: -23px;
+}
+.content2{
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top:0px;
+    height: 105px;
+    margin-top:0px;
+}
+.flexy-menu li {
+    display: inline;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 20px;
+    position: relative
+}
+
+.flexy-menu>li>a {
+    padding: 20px 22px;
+    color: #000000;
+    height: 95px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    -webkit-transition: color .2s linear, background .2s linear;
+    -moz-transition: color .2s linear, background .2s linear;
+    -o-transition: color .2s linear, background .2s linear;
+    transition: color .2s linear, background .2s linear
+}
+
+.flexy-menu li:hover>a{
+    background: #555;
+    color: #fff;
+    border-bottom:2px solid #0030ff;
+}
+.flexy-menu li.active a {
+    color: #fff;
+    border-bottom:2px solid #0030ff;
+}
+.flexy-menu li.right {
+    float: right
+}
+
+.flexy-menu ul,
+.flexy-menu ul li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    position: absolute;
+    z-index: 99999;
+    width: 132px;
+    background: #333;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3)
+}
+
+.flexy-menu ul {
+    top: 60px;
+    left: 0
+}
+
+.flexy-menu ul li ul {
+    top: 0;
+    left: 100%
+}
+
+.flexy-menu ul li {
+    clear: both;
+    width: 100%;
+    border: 0;
+    font-size: 12px
+}
+
+.flexy-menu ul li a {
+    padding: 10px 20px;
+    width: 100%;
+    color: #dedede;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    clear: both;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -webkit-transition: color .2s linear, background .2s linear;
+    -moz-transition: color .2s linear, background .2s linear;
+    -o-transition: color .2s linear, background .2s linear;
+    transition: color .2s linear, background .2s linear
+}
+
+.thin>li>a {
+    padding: 10px 22px
+}
+
+.thin ul {
+    top: 40px
+}
+
+.thick>li>a {
+    padding: 40px 22px
+}
+
+.thick ul {
+    top: 100px
+}
+
+.flexy-menu i {
+    line-height: 20px!important;
+    margin-right: 6px;
+    font-size: 18px;
+    float: left
+}
+
+.flexy-menu>li.showhide {
+    display: none;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    color: #dedede;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    background: #333
+}
+
+.flexy-menu>li.showhide span.title {
+    margin: 16px 0 0 25px;
+    float: left
+}
+
+.flexy-menu>li.showhide span.icon {
+    margin: 17px 20px;
+    float: right
+}
+
+.flexy-menu>li.showhide .icon em {
+    margin-bottom: 3px;
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #ccc
+}
+
+.orange li:hover>a {
+    background: #75746f;
+    color: #fff!important;
+}
+.flexy-menu.vertical {
+    width: 200px
+}
+
+.flexy-menu.vertical li {
+    width: 100%
+}
+
+.flexy-menu.vertical li a {
+    display: inline-block!important;
+    width: 100%;
+    padding: 18px 20px 16px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+
+.flexy-menu.vertical ul li {
+    width: 100%
+}
+
+.flexy-menu.vertical ul,
+.flexy-menu.vertical ul li ul {
+    width: 150px
+}
+
+.flexy-menu.vertical ul {
+    top: 0;
+    left: 100%
+}
+
+.flexy-menu.vertical ul li ul {
+    top: 1px
+}
+
+.flexy-menu.vertical.right {
+    float: right!important
+}
+
+.flexy-menu.vertical.right ul {
+    left: -150px!important
+}
+
+@media only screen and (max-width:768px) {
+    .flexy-menu.vertical {
+        width: 100%
+    }
+
+    .flexy-menu li {
+        display: block;
+        width: 100%
+    }
+
+    .flexy-menu > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px
+    }
+
+    .flexy-menu a {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box
+    }
+
+    .flexy-menu ul,
+    .flexy-menu ul li ul,
+    .flexy-menu.vertical ul,
+    .flexy-menu.vertical ul li ul {
+        width: 100%;
+        left: 0;
+        border-left: 0;
+        position: static;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box
+    }
+
+    .flexy-menu ul li {
+        border-left: 0;
+        border-right: 0
+    }
+
+    .flexy-menu ul li a,
+    .flexy-menu.vertical ul li a {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+
+    .flexy-menu ul > li > a {
+        padding-left: 40px !important
+    }
+}
